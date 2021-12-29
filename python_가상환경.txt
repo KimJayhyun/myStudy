@@ -1,0 +1,18 @@
+가상환경 만들기
+    python -m venv {폴더이름}
+
+가상환경 실행
+    window
+        cmd
+            {폴더이름}\Scripts\activate.bat
+        power shell
+            {폴더이름}\Scripts\activate.ps1
+
+    Linux / macOS
+        source {폴더이름}\bin\activate.bat
+
+패키지 목록 관리
+    패키지 확인
+        pip freeze > requirements.txt
+    패키지 설치
+        pip install -r requiremnets.txt
