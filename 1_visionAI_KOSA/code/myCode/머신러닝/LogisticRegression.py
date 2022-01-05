@@ -1,3 +1,4 @@
+### Logistic Regression은 Classifiy(분류)를 하는 머신러닝 기법이다. ###
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
