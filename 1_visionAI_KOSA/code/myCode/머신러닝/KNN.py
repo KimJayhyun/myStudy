@@ -29,47 +29,52 @@ X = []
 for data in dataset:
     X.append(data[0:2])
 
-# X = np.array(X)
-# .reshape(-1, 1)
+# X = np.array(X).reshape(-1, 1)
 
 # y
 y = []
 for data in dataset:
     y.append(data[2])
 
-y = np.array(y)
+# y = np.array(y)
 
-# train_test_split
+# # train_test_split
 
-randomList = random.sample(range(10), 7)
-randomList.sort()
 
-X_train = []
-X_test = []
-y_train = []
-y_test = []
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state= 42, test_size= 0.3, shuffle=True)
 
-for i in range(10):
-    if i in randomList:
-        X_train.append(X[i])
-        y_train.append(y[i])
-    else :
-        X_test.append(X[i])
-        y_test.append(y[i])
+# randomList = random.sample(range(10), 7)
+# randomList.sort()
 
-X_train = np.array(X_train).reshape(-1, 1)
+# X_train = []
+# X_test = []
+# y_train = []
+# y_test = []
 
-X_test = np.array(X_test).reshape(-1, 1)
+# for i in range(10):
+#     if i in randomList:
+#         X_train.append(X[i])
+#         y_train.append(y[i])
+#     else :
+#         X_test.append(X[i])
+#         y_test.append(y[i])
 
+
+
+# print(X_train)
 
 # 모델 학습
 knn = KNeighborsClassifier(n_neighbors = 7)
 knn.fit(X_train, y_train)
 
-for test in X_test: 
-    # test = np.array(test).reshape(-1, 1)
-    pred = knn.predict(test)
-    print(test, pred)
+# for test in X_test: 
+#     # test = np.array(test).reshape(-1, 1)
+#     pred = knn.predict(test)
+#     print(test, pred)
+
+pred = knn.predict(X_test)
+print(X_test)
+print(pred)
 
 accuracy = accuracy_score(y_test, pred)
 print(accuracy)
