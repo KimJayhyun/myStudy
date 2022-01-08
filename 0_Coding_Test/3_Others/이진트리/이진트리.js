@@ -24,4 +24,4 @@ let arr = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
 let root;
 
 let tree = makingTree(arr, root, 0)
-console.log(tree.left)
+console.log(tree.left.data)

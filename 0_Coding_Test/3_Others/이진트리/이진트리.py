@@ -18,11 +18,11 @@ def makeingTree(arr, root, i):
         root.right = makeingTree(arr, root.right, 2*i + 2)
     return root
 
+root = None
 
+tree = makeingTree(arr, root ,0)
 
-makeingTree(arr, root ,0)
-
-print(root.data)
+print(tree.data)
 
 ##################################################################################################################
 
