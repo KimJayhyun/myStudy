@@ -26,48 +26,16 @@ print(tree.data)
 
 ##################################################################################################################
 
-# dic_tree = {}
-
-# degree = 0
-
-# while(2 ** degree < len(arr)):
-#     degree += 1
-# degree += 1
-
-# for i in range(degree):
-#     dic_tree[i] = []
-
-# degree = 0
-# for i, item in enumerate(arr):
-#     index = i + 1
+answer = []
+def Inorder(root, answer):
+    if (root.left != None):
+        Inorder(root.left, answer)
     
-#     if index % 2 == 0 :
-#         degree += 1
+    answer.append(root.data)
 
-#     dic_tree[degree].append(item)
-
-# print(dic_tree)
-
-##################################################################################################################
-
- 
-# for i in range(degree):
-#     num = 2 ** i
-#     index = 2 ** i
-#     dic_tree[i] = [arr[x + index] for x in range(num)]
-
-
-##################################################################################################################
+    if (root.right != None):
+        Inorder(root.right, answer)
     
-# temp = list(arr)
+Inorder(tree, answer)
 
-# temp.append(1)
-# print(temp)
-# print(arr)
-
-# while(True):
-#     i = 0
-    
-
-
-     
+print(answer)
