@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6ba4e66-3926-4bdb-adbd-9153d33ff793" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hello-template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_Coding_Test/3_코드업/그리디 알고리즘/3120.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_Coding_Test/3_코드업/그리디 알고리즘/3120.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/controller/HelloController.java" afterDir="false" />
     </list>
@@ -62,6 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunManager">
     <configuration name="HelloSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">

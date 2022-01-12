@@ -1,15 +1,16 @@
 ## https://codeup.kr/problem.php?id=3120
 
 # # +- 1, 5, 10 버튼 6개
-x, y = input().split(" ")
-x = int(x)
-y = int(y)
+# x, y = input().split(" ")
+# x = int(x)
+# y = int(y)
 
-# y = 34
-# x = 7
+y = 34
+x = 7
 
 temp = y - x
 answer = 0 
+num = [-1, -5, -10, 1, 5, 10]
 
 while(temp != 0):
     t1 = abs(temp - 1)
@@ -29,7 +30,7 @@ while(temp != 0):
     # }
 
     arr = [t1, t2, t3, t4, t5, t6]
-    num = [-1, -5, -10, 1, 5, 10]
+    
     
 
     min = t1
