@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6ba4e66-3926-4bdb-adbd-9153d33ff793" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/controller/MemberForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/members/createMemberForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/members/memberList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/hellospring/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/hellospring/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/hellospring/repository/MemoryMemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/hellospring/repository/MemoryMemberRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/hellospring/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/hellospring/service/MemberService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/MemoryMemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/service/MemberService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +45,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -85,11 +88,14 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dnlwj\OneDrive\Desktop\gitFolder\myStudy\2_Spring입문_InfLearn\hello-spring\hello-spring\src\main\resources\templates\members" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="hello.hellospring.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberServiceTest.중복_회원_예외">
+  <component name="RunManager" selected="Application.HelloSpringApplication">
     <configuration name="HelloSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.hellospring.HelloSpringApplication" />
       <module name="hello-spring.main" />
@@ -164,10 +170,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloSpringApplication" />
         <item itemvalue="JUnit.MemberServiceTest.중복_회원_예외" />
         <item itemvalue="JUnit.MemberServiceTest.join" />
         <item itemvalue="JUnit.MemoryMemberRepositoryTest.save" />
-        <item itemvalue="Application.HelloSpringApplication" />
       </list>
     </recent_temporary>
   </component>
