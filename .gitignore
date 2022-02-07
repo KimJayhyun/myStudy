@@ -1,1 +1,8 @@
 ## Python 가상환경은 모두 무시
+## 가상환경은 requirement로 설치
+
+# 1_visionAI_KOSA
+/1_visionAI_KOSA/virtual_enviroment/
+
+# 3_OpenCV_python
+/3_OpenCV_python/virtual_enviroment/
