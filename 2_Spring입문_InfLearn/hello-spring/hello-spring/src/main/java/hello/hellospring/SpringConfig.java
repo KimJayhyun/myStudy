@@ -1,13 +1,33 @@
 package hello.hellospring;
 
+import hello.hellospring.repository.JdbcMemberRepository;
+import hello.hellospring.repository.JpaMemberRepository;
 import hello.hellospring.repository.MemberRepository;
 import hello.hellospring.repository.MemoryMemberRepository;
 import hello.hellospring.service.MemberService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import javax.persistence.EntityManager;
+import javax.sql.DataSource;
+
 @Configuration
 public class SpringConfig {
+
+//    private DataSource dataSource;
+
+    private EntityManager em;
+
+    @Autowired
+    public SpringConfig(EntityManager em) {
+        this.em = em;
+    }
+
+    @Autowired
+    public SpringConfig(DataSource dataSource) {
+        this.dataSource = dataSource;
+    }
 
     @Bean
     public MemberService memberService()
@@ -16,13 +36,16 @@ public class SpringConfig {
     }
 
 
+
     /**
      * DB를 변경할 경우, return new DBMemberRepository();로 변경하면 된다.
      */
     @Bean
     public MemberRepository memberRepository()
     {
-        return new MemoryMemberRepository();
+//        return new MemoryMemberRepository();
+//        return new JdbcMemberRepository(dataSource);
+        return new JpaMemberRepository(em);
     }
 }
 
