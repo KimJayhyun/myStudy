@@ -11,3 +11,8 @@ infLearn에서 진행한 무료 Spring 강의
 # 3. openCV with python
 youtube의 무료 강의
     https://www.youtube.com/watch?v=XK3eU9egll8&list=WL&index=47
+
+# 4. Basic_AI
+한전 KDN 중소지원기업센터 연수원에서 진행한 머신러닝 딥러닝 강의
+    https://kdnjs.learning-hub.co.kr/front/home/MainAction.do?method=index
+    kdnj3655
