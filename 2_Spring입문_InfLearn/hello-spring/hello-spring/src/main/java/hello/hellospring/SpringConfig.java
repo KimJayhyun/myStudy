@@ -17,22 +17,29 @@ public class SpringConfig {
 
 //    private DataSource dataSource;
 
-    private EntityManager em;
+//    private EntityManager em;
+//
+//    @Autowired
+//    public SpringConfig(EntityManager em) {
+//        this.em = em;
+//    }
+//
+//    @Autowired
+//    public SpringConfig(DataSource dataSource) {
+//        this.dataSource = dataSource;
+//    }
+
+    private final MemberRepository memberRepository;
 
     @Autowired
-    public SpringConfig(EntityManager em) {
-        this.em = em;
-    }
-
-    @Autowired
-    public SpringConfig(DataSource dataSource) {
-        this.dataSource = dataSource;
+    public SpringConfig(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
     }
 
     @Bean
     public MemberService memberService()
     {
-        return new MemberService(memberRepository());
+        return new MemberService(memberRepository);
     }
 
 
@@ -40,13 +47,13 @@ public class SpringConfig {
     /**
      * DB를 변경할 경우, return new DBMemberRepository();로 변경하면 된다.
      */
-    @Bean
-    public MemberRepository memberRepository()
-    {
-//        return new MemoryMemberRepository();
-//        return new JdbcMemberRepository(dataSource);
-        return new JpaMemberRepository(em);
-    }
+//    @Bean
+//    public MemberRepository memberRepository()
+//    {
+////        return new MemoryMemberRepository();
+////        return new JdbcMemberRepository(dataSource);
+////        return new JpaMemberRepository(em);
+//    }
 }
 
 

@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6ba4e66-3926-4bdb-adbd-9153d33ff793" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sql/ddl.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/JdbcMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/JdbcTemplateMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/JpaMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/hellospring/service/MemberServiceIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/SpringDataJpaMemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.2/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.2/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.2/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.2/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.2/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/hellospring/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/hellospring/controller/MemberController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +42,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="HTML File" />
         <option value="Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -104,7 +95,7 @@
       <recent name="hello.hellospring.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberServiceIntegrationTest">
+  <component name="RunManager" selected="JUnit.MemberServiceTest.회원가입">
     <configuration name="HelloSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.hellospring.HelloSpringApplication" />
       <module name="hello-spring.main" />
@@ -129,6 +120,22 @@
       <option name="PACKAGE_NAME" value="hello.hellospring.service" />
       <option name="MAIN_CLASS_NAME" value="hello.hellospring.service.MemberServiceIntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberServiceTest.회원가입" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.hellospring.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.hellospring.service" />
+      <option name="MAIN_CLASS_NAME" value="hello.hellospring.service.MemberServiceTest" />
+      <option name="METHOD_NAME" value="회원가입" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,22 +172,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemoryMemberRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-spring.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.hellospring.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.hellospring.repository" />
-      <option name="MAIN_CLASS_NAME" value="hello.hellospring.repository.MemoryMemberRepositoryTest" />
-      <option name="METHOD_NAME" value="save" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberServiceTest.회원가입" />
         <item itemvalue="JUnit.MemberServiceIntegrationTest" />
         <item itemvalue="Application.HelloSpringApplication" />
         <item itemvalue="JUnit.MemberServiceTest.중복_회원_예외" />
         <item itemvalue="JUnit.MemberServiceTest.join" />
-        <item itemvalue="JUnit.MemoryMemberRepositoryTest.save" />
       </list>
     </recent_temporary>
   </component>
