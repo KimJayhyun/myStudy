@@ -1,2 +1,2 @@
 ID
-    dnlwjem000@naver.com
+    naver.com
