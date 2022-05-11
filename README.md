@@ -22,3 +22,8 @@ youtube의 무료 강의
 한전 KDN 중소지원기업센터 연수원에서 진행한 머신러닝 딥러닝 강의
     https://kdnjs.learning-hub.co.kr/front/home/MainAction.do?method=index
     kdnj3655
+
+# 7. 자료구조 7시간 완성 강의
+youtube 무료강의
+(메타코드M, 카카오톡 계정으로 로그인)
+    https://youtu.be/n0wWDd64WwA
