@@ -32,8 +32,4 @@ def move_up(idx):
 def make_heap(arr):
     tmp_arr = [None]
     for n in arr:
-
-        
-
-
-print(test.heap_array)
+        pass
