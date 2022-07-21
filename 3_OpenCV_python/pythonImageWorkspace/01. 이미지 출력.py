@@ -1,5 +1,5 @@
 import cv2
-path = "C:/Users/User/Desktop/code/gitFolder/myStudy/3_OpenCV_python/Data"
+path = "C:/Users/User1/Desktop/code/gitFolder/myStudy/3_OpenCV_python/Data"
 
 #==========================================================================================================================#
 
